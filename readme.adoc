@@ -1,0 +1,75 @@
+= openFrameworks
+:toc:
+:sectnums:
+ifndef::env-github[:icons: font]
+:note-caption: :paperclip:
+:important-caption: :exclamation:
+:warning-caption: :warning:
+
+[IMPORTANT]
+====
+The commit history of this branch is volatile. +
+Rebasing and force pushing happens at will. +
+The commits in this branch mostly collect changes with a narrow scope. +
+They rarely document code evolution. +
+The history may be rewritten without notice.
+====
+
+== openFrameworks
+
+https://openframeworks.cc/
+
+https://github.com/openframeworks/openFrameworks
+
+https://github.com/hghpublic/openframeworks-openFrameworks
+
+== Build
+
+[source, shell]
+----
+cd scripts/linux
+sudo ./download_libs.sh
+----
+
+[source, shell]
+----
+cd scripts/linux/ubuntu
+sudo ./install_dependencies.sh
+----
+
+[source, shell]
+----
+cd scripts/linux
+./compileOF.sh -j3
+----
+
+[source, shell]
+----
+cd examples/graphics/polygonExample
+make
+make run
+----
+
+[source, shell]
+----
+cd scripts/linux
+./compilePG.sh
+----
+
+== Examples
+
+https://openframeworks.cc/examples/
+
+== Dependencies
+
+https://github.com/mborgerding/kissfft
+
+https://github.com/nemtrif/utfcpp
+
+https://github.com/memononen/libtess2
+
+https://github.com/g-truc/glm
+
+https://json.nlohmann.me/
+
+https://github.com/nlohmann/json
