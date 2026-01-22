@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+    "name": "openframeworks",
+    "version": "0.1.0",
+    "dependencies": [
+        "freeimage",
+        "freetype",
+        "glew",
+        "glfw3",
+        "glm",
+        "gstreamer",
+        "kissfft",
+        "libtess2",
+        "nlohmann-json",
+        "openal-soft",
+        "opengl",
+        "pugixml",
+        "rtaudio",
+        "uriparser",
+        "utfcpp"
+    ]
+}
