@@ -149,6 +149,7 @@ static const struct {
 #define CASE_STR(x,y) case x: str = y; break
 
 static std::string eglErrorString(EGLint err) {
+    std::string str;
 	switch (err) {
 			CASE_STR(EGL_SUCCESS, "no error");
 			CASE_STR(EGL_NOT_INITIALIZED, "EGL not, or could not be, initialized");
@@ -167,6 +168,7 @@ static std::string eglErrorString(EGLint err) {
 			CASE_STR(EGL_CONTEXT_LOST, "APM event caused context loss");
 			default: return "unknown error " + std::to_string(err);
 	}
+    return str;
 }
 
 
