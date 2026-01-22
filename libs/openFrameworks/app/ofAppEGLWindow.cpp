@@ -331,7 +331,7 @@ void ofAppEGLWindow::exitNative() {
 EGLNativeWindowType ofAppEGLWindow::getNativeWindow()  {
 	if(!isWindowInited) {
 		ofLogWarning("ofAppEGLWindow") << "getNativeDisplay(): window not initialized, returning NULL";
-		return NULL;
+		return (EGLNativeWindowType)NULL;
 	}
 
 	if(isUsingX11) {
@@ -341,7 +341,7 @@ EGLNativeWindowType ofAppEGLWindow::getNativeWindow()  {
 		return (EGLNativeWindowType)&dispman_native_window;
 #else
 		ofLogNotice("ofAppEGLWindow") << "getNativeWindow(): no native window type for this system, perhaps try X11?";
-		return NULL;
+		return (EGLNativeWindowType)NULL;
 #endif
 	}
 }
