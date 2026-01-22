@@ -170,7 +170,7 @@ examples/android/**/CMakeLists.txt
 #########################
 
 .mailmap
-/apps*/
+# /apps*/
 projectGenerator*/
 .cxx/
 
@@ -194,3 +194,6 @@ scripts/templates/vs2019/emptyExample.vcxproj.user
 libs/openFrameworksCompiled/project/android/build-*/
 
 
+!/dev/logs/*.log
+!/.vscode/
+!CMakeLists.txt
