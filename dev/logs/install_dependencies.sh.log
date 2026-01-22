@@ -1,0 +1,307 @@
+Running on ubuntu  24.04
+Hit:1 http://ports.ubuntu.com/ubuntu-ports noble InRelease
+Get:2 http://ports.ubuntu.com/ubuntu-ports noble-updates InRelease [126 kB]
+Get:3 http://ports.ubuntu.com/ubuntu-ports noble-backports InRelease [126 kB]
+Get:4 http://ports.ubuntu.com/ubuntu-ports noble-security InRelease [126 kB]
+Get:5 http://ports.ubuntu.com/ubuntu-ports noble-updates/universe arm64 Packages [1,913 kB]
+Get:6 http://ports.ubuntu.com/ubuntu-ports noble-updates/multiverse arm64 Packages [38.6 kB]
+Get:7 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 Packages [2,243 kB]
+Fetched 4,574 kB in 2s (2,289 kB/s)
+Reading package lists...
+detecting latest gstreamer version
+Package: libgstreamer1.0-dev
+Architecture: arm64
+Version: 1.24.2-1ubuntu0.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: gstreamer1.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6281
+Depends: libgstreamer1.0-0 (= 1.24.2-1ubuntu0.1), libc6-dev | libc-dev, pkgconf, libglib2.0-dev, libunwind-dev, libdw-dev, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), gir1.2-gstreamer-1.0 (= 1.24.2-1ubuntu0.1)
+Suggests: gstreamer1.0-doc
+Filename: pool/main/g/gstreamer1.0/libgstreamer1.0-dev_1.24.2-1ubuntu0.1_arm64.deb
+Size: 524214
+MD5sum: 7995bb9caa23401e42d14ff5e77914f3
+SHA1: 324a496ba4b513bf8a4481672dfd689004d5e30b
+SHA256: 4d48cec747ec4b6e30450b04f4c08c567f8d2199b65022b357a46c06f87a8705
+SHA512: 386294de4239f847b826cfbd9602be841b3ec9c53d6be8905a129d2cabfcf5e06519d0937c28c364383af41543b1c1aa37f98f9eb0ebfa7210797f1e13651e17
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer core development files
+Description-md5: de1692260510350a48f76ec91eae40a9
+Task: ubuntustudio-photography
+
+Package: libgstreamer1.0-dev
+Architecture: arm64
+Version: 1.24.2-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: gstreamer1.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6281
+Depends: libgstreamer1.0-0 (= 1.24.2-1), libc6-dev | libc-dev, pkgconf, libglib2.0-dev, libunwind-dev, libdw-dev, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), gir1.2-gstreamer-1.0 (= 1.24.2-1)
+Suggests: gstreamer1.0-doc
+Filename: pool/main/g/gstreamer1.0/libgstreamer1.0-dev_1.24.2-1_arm64.deb
+Size: 524172
+MD5sum: 97bfd3a96f0737fc0b2dd1a2ca76848c
+SHA1: f9c4de6de7fad11fa5023066b72736cf9b89fa40
+SHA256: ca6f8c9e8a848f83f046f72e509b588d99380a0c5c9dc989157bed5172051f55
+SHA512: 0ed71b2ba6baa1625afa5e3add7503d4e061edb74c8ec5843ac7e378a53807f3dafdfd3a115f97d9fe25d02cccf264d340cb6af6fad325c1f54e0309a9316ad3
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer core development files
+Description-md5: de1692260510350a48f76ec91eae40a9
+Task: ubuntustudio-photography
+
+selecting gstreamer 1.0
+detecting latest gtk version
+Package: libgtk-3-dev
+Architecture: arm64
+Version: 3.24.41-4ubuntu1.3
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: gtk+3.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 14094
+Provides: gir1.2-gdk-3.0-dev (= 3.24.41-4ubuntu1.3), gir1.2-gdkx11-3.0-dev (= 3.24.41-4ubuntu1.3), gir1.2-gtk-3.0-dev (= 3.24.41-4ubuntu1.3)
+Depends: gir1.2-gtk-3.0 (= 3.24.41-4ubuntu1.3), libatk-bridge2.0-dev (>= 2.15.1), libatk1.0-dev (>= 2.35.1), libcairo2-dev (>= 1.14.0), libegl1-mesa-dev, libepoxy-dev (>= 1.0), libfontconfig-dev, libfribidi-dev (>= 0.19.7), libgdk-pixbuf-2.0-dev (>= 2.40.0), libglib2.0-dev (>= 2.57.2), libpango1.0-dev (>= 1.44.0), libwayland-dev (>= 1.9.91), libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev, libxrandr-dev, pkgconf, wayland-protocols (>= 1.17), gir1.2-atk-1.0-dev, gir1.2-cairo-1.0-dev, gir1.2-gdkpixbuf-2.0-dev, gir1.2-gio-2.0-dev, gir1.2-pango-1.0-dev, gir1.2-xlib-2.0-dev, libgtk-3-common (>= 3.24.41-4ubuntu1.3), libgtk-3-0t64 (= 3.24.41-4ubuntu1.3)
+Suggests: libgtk-3-doc
+Filename: pool/main/g/gtk+3.0/libgtk-3-dev_3.24.41-4ubuntu1.3_arm64.deb
+Size: 1096236
+MD5sum: 6cfa6ec51d15ed8f0d2c18d293758ea0
+SHA1: 38a4ddc85df207552d6c3a372cbdbbbb3703b02b
+SHA256: c35abb301647f7803d215bc60a93517c90af51f0a62f6bdd2cfedb0ebcdb4eb7
+SHA512: 04bebb8ddc5f32159c6bd44b7c1e0560522dc06dfe82d75e0bf88a576e34bc23cd7814695002a143130203a38fd6449bd84cdeee419b817fdc7db63632abb289
+Homepage: https://www.gtk.org/
+Description: development files for the GTK library
+Description-md5: 4fe57949589093654313cc79d6da8008
+Task: ubuntustudio-photography
+
+Package: libgtk-3-dev
+Architecture: arm64
+Version: 3.24.41-4ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: gtk+3.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 14094
+Provides: gir1.2-gdk-3.0-dev (= 3.24.41-4ubuntu1.1), gir1.2-gdkx11-3.0-dev (= 3.24.41-4ubuntu1.1), gir1.2-gtk-3.0-dev (= 3.24.41-4ubuntu1.1)
+Depends: gir1.2-gtk-3.0 (= 3.24.41-4ubuntu1.1), libatk-bridge2.0-dev (>= 2.15.1), libatk1.0-dev (>= 2.35.1), libcairo2-dev (>= 1.14.0), libegl1-mesa-dev, libepoxy-dev (>= 1.0), libfontconfig-dev, libfribidi-dev (>= 0.19.7), libgdk-pixbuf-2.0-dev (>= 2.40.0), libglib2.0-dev (>= 2.57.2), libpango1.0-dev (>= 1.44.0), libwayland-dev (>= 1.9.91), libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev, libxrandr-dev, pkgconf, wayland-protocols (>= 1.17), gir1.2-atk-1.0-dev, gir1.2-cairo-1.0-dev, gir1.2-gdkpixbuf-2.0-dev, gir1.2-gio-2.0-dev, gir1.2-pango-1.0-dev, gir1.2-xlib-2.0-dev, libgtk-3-common (>= 3.24.41-4ubuntu1.1), libgtk-3-0t64 (= 3.24.41-4ubuntu1.1)
+Suggests: libgtk-3-doc
+Filename: pool/main/g/gtk+3.0/libgtk-3-dev_3.24.41-4ubuntu1.1_arm64.deb
+Size: 1095942
+MD5sum: 1e3900899705b97c673cb975932b775d
+SHA1: 1a92a61e84853711108a144205e0c74b9000b1d1
+SHA256: e2695568e28591d1037ee312c454809469d8b145d7c8d9030d75fb7ee974ec75
+SHA512: b27d1c0a9a2fa317bfe4edd539364e337fd6803a9b31c56185ba9e7c30d4ea5e6c1c9badcb50407fbc269b80fa1fdc1c94eb298b4e4d42b0561187ad6be1bbc4
+Homepage: https://www.gtk.org/
+Description: development files for the GTK library
+Description-md5: 4fe57949589093654313cc79d6da8008
+Task: ubuntustudio-photography
+
+Package: libgtk-3-dev
+Architecture: arm64
+Version: 3.24.41-4ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: gtk+3.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 14094
+Provides: gir1.2-gdk-3.0-dev (= 3.24.41-4ubuntu1), gir1.2-gdkx11-3.0-dev (= 3.24.41-4ubuntu1), gir1.2-gtk-3.0-dev (= 3.24.41-4ubuntu1)
+Depends: gir1.2-gtk-3.0 (= 3.24.41-4ubuntu1), libatk-bridge2.0-dev (>= 2.15.1), libatk1.0-dev (>= 2.35.1), libcairo2-dev (>= 1.14.0), libegl1-mesa-dev, libepoxy-dev (>= 1.0), libfontconfig-dev, libfribidi-dev (>= 0.19.7), libgdk-pixbuf-2.0-dev (>= 2.40.0), libglib2.0-dev (>= 2.57.2), libpango1.0-dev (>= 1.44.0), libwayland-dev (>= 1.9.91), libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev, libxrandr-dev, pkgconf, wayland-protocols (>= 1.17), gir1.2-atk-1.0-dev, gir1.2-cairo-1.0-dev, gir1.2-gdkpixbuf-2.0-dev, gir1.2-gio-2.0-dev, gir1.2-pango-1.0-dev, gir1.2-xlib-2.0-dev, libgtk-3-common (>= 3.24.41-4ubuntu1), libgtk-3-0t64 (= 3.24.41-4ubuntu1)
+Suggests: libgtk-3-doc
+Filename: pool/main/g/gtk+3.0/libgtk-3-dev_3.24.41-4ubuntu1_arm64.deb
+Size: 1096102
+MD5sum: 83060c1499dd689fee7c0d091e4e907d
+SHA1: 5db5bca01f31ee4b6b5bf4ed8576d2645502a2f4
+SHA256: 5cb0ece5473fafd778e2cd0a13ec1ef49e2017ed026f249ca4516c8558fc8a57
+SHA512: 558efd2139ff1897cb18504e7decfc698937daef6e5dbb0ab8c9a51b078cce8382d5e1cf0a489b26887e86fd5e68453aa6e8ee9e062b0e998727633b10f12bc0
+Homepage: https://www.gtk.org/
+Description: development files for the GTK library
+Description-md5: 4fe57949589093654313cc79d6da8008
+Task: ubuntustudio-photography
+
+adding gtk 3
+Package: libglfw3-dev
+Architecture: arm64
+Version: 3.3.10-1build1
+Multi-Arch: same
+Priority: optional
+Section: universe/libdevel
+Source: glfw3
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 269
+Depends: libgl-dev, libglvnd-dev, libglfw3 (= 3.3.10-1build1) | libglfw3-wayland (= 3.3.10-1build1)
+Recommends: libegl1-mesa-dev, libvulkan-dev, libwayland-dev, libx11-dev, libxrandr-dev
+Suggests: libglfw3-doc
+Conflicts: libglfw-dev
+Filename: pool/universe/g/glfw3/libglfw3-dev_3.3.10-1build1_arm64.deb
+Size: 41546
+MD5sum: e5a10664f518d2ef58c44b4205503d5c
+SHA1: 414187446293da52bb5cc58f73a80210627db9b3
+SHA256: 9a37aacc5c23b1921e1cc84727374e8571d7de0280ba74668f62c2492e5716ae
+SHA512: 5527452348c470fc67ade2ad99ef5cabad8927d36cd96061f3c9c6f5c3a6d61ba80e1961f1494928c44cb42b9ec4516bd201a8740065fb91bede9358a31ef09d
+Homepage: https://www.glfw.org/
+Description: portable library for OpenGL, window and input (development files)
+Description-md5: d32f1f76941ab1185f332cadd1f7fa2b
+
+installing OF dependencies
+OF needs to install the following packages using apt-get:
+make nlohmann-json3-dev libssl3 libcurl4 brotli libcurl4-openssl-dev libjack-jackd2-0 libjack-jackd2-dev freeglut3-dev libasound2-dev libxmu-dev libxxf86vm-dev g++ libgl1-mesa-dev libglu1-mesa-dev libraw1394-dev libudev-dev libdrm-dev libglew-dev libopenal-dev libsndfile1-dev libfreeimage-dev libcairo2-dev libfreetype6-dev libssl-dev libpulse-dev libusb-1.0-0-dev libgtk2.0-dev libgtk-3-dev libopencv-dev libassimp-dev librtaudio-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-libav gstreamer1.0-pulseaudio gstreamer1.0-x gstreamer1.0-plugins-bad gstreamer1.0-alsa gstreamer1.0-plugins-base gstreamer1.0-plugins-good gdb libglfw3-dev liburiparser-dev libpugixml-dev libgtk2.0-0 libpoco-dev libxcursor-dev libxi-dev libxinerama-dev libxml2-dev libwayland-dev wayland-protocols libxkbcommon-dev libxkbcommon-x11-dev libdecor-0-dev x11proto-dev libglvnd-dev libegl1-mesa-dev libgles2-mesa-dev mesa-utils
+Do you want to continue? [Y/n] 
+Installing...
+
+Ensuring latest libunwind-dev is installed...
+Installing make
+ Already installed
+Installing nlohmann-json3-dev
+ Already installed
+Installing libssl3
+ Already installed
+Installing libcurl4
+ Already installed
+Installing brotli
+ Already installed
+Installing libcurl4-openssl-dev
+ Already installed
+Installing libjack-jackd2-0
+ Already installed
+Installing libjack-jackd2-dev
+ Already installed
+Installing freeglut3-dev
+ Already installed
+Installing libasound2-dev
+ Already installed
+Installing libxmu-dev
+ Already installed
+Installing libxxf86vm-dev
+ Already installed
+Installing g++
+ Already installed
+Installing libgl1-mesa-dev
+ Already installed
+Installing libglu1-mesa-dev
+ Already installed
+Installing libraw1394-dev
+ Already installed
+Installing libudev-dev
+ Already installed
+Installing libdrm-dev
+ Already installed
+Installing libglew-dev
+ Already installed
+Installing libopenal-dev
+ Already installed
+Installing libsndfile1-dev
+ Already installed
+Installing libfreeimage-dev
+ Already installed
+Installing libcairo2-dev
+ Already installed
+Installing libfreetype6-dev
+ Already installed
+Installing libssl-dev
+ Already installed
+Installing libpulse-dev
+ Already installed
+Installing libusb-1.0-0-dev
+ Already installed
+Installing libgtk2.0-dev
+ Already installed
+Installing libgtk-3-dev
+ Already installed
+Installing libopencv-dev
+ Already installed
+Installing libassimp-dev
+ Already installed
+Installing librtaudio-dev
+ Already installed
+Installing libgstreamer1.0-dev
+ Already installed
+Installing libgstreamer-plugins-base1.0-dev
+ Already installed
+Installing gstreamer1.0-libav
+ Already installed
+Installing gstreamer1.0-pulseaudio
+ Already installed
+Installing gstreamer1.0-x
+ Already installed
+Installing gstreamer1.0-plugins-bad
+ Already installed
+Installing gstreamer1.0-alsa
+ Already installed
+Installing gstreamer1.0-plugins-base
+ Already installed
+Installing gstreamer1.0-plugins-good
+ Already installed
+Installing gdb
+ Already installed
+Installing libglfw3-dev
+ Already installed
+Installing liburiparser-dev
+ Already installed
+Installing libpugixml-dev
+ Already installed
+Installing libgtk2.0-0
+ Already installed
+Installing libpoco-dev
+ Already installed
+Installing libxcursor-dev
+ Already installed
+Installing libxi-dev
+ Already installed
+Installing libxinerama-dev
+ Already installed
+Installing libxml2-dev
+ Already installed
+Installing libwayland-dev
+ Already installed
+Installing wayland-protocols
+ Already installed
+Installing libxkbcommon-dev
+ Already installed
+Installing libxkbcommon-x11-dev
+ Already installed
+Installing libdecor-0-dev
+ Already installed
+Installing x11proto-dev
+ Already installed
+Installing libglvnd-dev
+ Already installed
+Installing libegl1-mesa-dev
+ Already installed
+Installing libgles2-mesa-dev
+ Already installed
+Installing mesa-utils
+ Already installed
+Installing libharfbuzz-dev
+ Already installed
+Installing gstreamer1.0-vaapi
+ Already installed
+Installing gstreamer1.0-libav
+ Already installed
+
+All packages were installed correctly
+
+Updating ofxOpenCV to use openCV4

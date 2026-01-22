@@ -1,0 +1,20 @@
+= cmake
+
+https://github.com/ofnode/of
+
+https://github.com/ofnode/of/blob/master/CMakeLists.txt
+
+https://github.com/ofnode
+
+https://github.com/peterkolski/ofxCMake
+
+https://zmc.space/using-openframeworks-v0-9-with-cmake.html
+
+https://github.com/iwer/openFrameworks-Cmake-Wrapper
+
+https://openframeworks.cc/learning/01_basics/how_to_add_addon_to_project/
+
+
+https://onassar.github.io/blogs/web/2011/05/08/getting-openframeworks-to-work-on-osx-command-line/
+
+https://digitalork.blogspot.com/2009/12/getting-started-with-openframeworks-on.html?ref=onassar.github.io

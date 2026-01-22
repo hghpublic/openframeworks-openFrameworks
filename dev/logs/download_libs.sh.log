@@ -1,0 +1,24 @@
+ openFrameworks download_libs.sh v2.6.7 args=
+ -----
+ [openFrameworks downloader v4.6.0] ... 
+  [downloader] Downloading ...
+
+
+DL% UL%  Dled  Uled  Xfers  Live Total     Current  Left    Speed
+
+--  --      0     0     1     1  --:--:-- --:--:-- --:--:--     0      
+100 --  1077k     0     1     0  --:--:-- --:--:-- --:--:-- 4922k     
+ 
+ Overwrite - Removing prior libraries for [linux]
+ ------ 
+ Uncompressing libraries [linux] from [openFrameworksLibs_latest_linuxaarch64.tar.bz2]
+tar xjfv download/openFrameworksLibs_latest_linuxaarch64.tar.bz2  --strip-components=1
+ Deployed libraries from [download/openFrameworksLibs_latest_linuxaarch64.tar.bz2] to [/libs]
+   ------ 
+ Overwrite - addon: [ofxSvg - libxml2]
+ Overwrite - addon: [ofxSvg - svgtiny]
+   ------ 
+   Deploying [libxml2] to [../addons/ofxSvg/libs]
+   Deploying [svgtiny] to [../addons/ofxSvg/libs]
+ ------ 
+ openFrameworks download_libs and install complete!
