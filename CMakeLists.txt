@@ -5,7 +5,7 @@ project(root)
 # build options
 
 option(OF_BUILD_SINGLE_LIB "Build openFrameworks as a single library" ON)
-option(OF_BUILD_ADDONS "Build openFrameworks addons" OFF)
+option(OF_BUILD_ADDONS "Build openFrameworks addons" ON)
 option(OF_BUILD_APPS "Build openFrameworks apps" OFF)
 option(OF_BUILD_EXAMPLES "Build openFrameworks examples" ON)
 option(OF_BUILD_TESTS "Build openFrameworks tests" OFF)
