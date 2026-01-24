@@ -1,8 +1,3 @@
-[proc] Executing command: /usr/local/bin/cmake --version
-[proc] Executing command: /usr/local/bin/cmake -E capabilities
-[kit] Successfully loaded 3 kits from /home/vscode/.local/share/CMakeTools/cmake-tools-kits.json
-[variant] Loaded new set of variants
-[proc] Executing command: /usr/bin/aarch64-linux-gnu-gcc-14 -v
 [main] Configuring project: openframeworks-openFrameworks 
 [proc] Executing command: /usr/local/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_TOOLCHAIN_FILE:STRING=/usr/local/vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/aarch64-linux-gnu-gcc-14 -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/aarch64-linux-gnu-g++-14 --no-warn-unused-cli -S /workspaces/openframeworks-openFrameworks -B /workspaces/openframeworks-openFrameworks/build -G Ninja
 [cmake] Not searching for unused variables given on the command line.
@@ -57,6 +52,211 @@
 [cmake]   * vcpkg-make:arm64-linux@2025-08-21
 [cmake]   * vcpkg-tool-meson:arm64-linux@1.9.0
 [cmake]   * zlib:arm64-linux@1.3.1
+[cmake] The following packages will be built and installed:
+[cmake]     assimp:arm64-linux@6.0.2#1
+[cmake]   * draco:arm64-linux@1.5.7
+[cmake]   * jhasse-poly2tri:arm64-linux@2023-12-27#2
+[cmake]   * kubazip:arm64-linux@0.3.5
+[cmake]   * minizip:arm64-linux@1.3.1#1
+[cmake]   * polyclipping:arm64-linux@6.4.2#13
+[cmake]   * rapidjson:arm64-linux@2025-02-26
+[cmake]   * stb:arm64-linux@2024-07-29#1
+[cmake] Additional packages (*) will be modified to complete this operation.
+[cmake] Restored 0 package(s) from /home/vscode/.cache/vcpkg/archives in 496 us. Use --debug to see more details.
+[cmake] Installing 1/8 stb:arm64-linux@2024-07-29#1...
+[cmake] Building stb:arm64-linux@2024-07-29#1...
+[cmake] /usr/local/vcpkg/triplets/community/arm64-linux.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+[cmake] Downloading https://github.com/nothings/stb/archive/f75e8d1cad7d90d72ef7a4661f1b994ef78b4e31.tar.gz -> nothings-stb-f75e8d1cad7d90d72ef7a4661f1b994ef78b4e31.tar.gz
+[cmake] Successfully downloaded nothings-stb-f75e8d1cad7d90d72ef7a4661f1b994ef78b4e31.tar.gz
+[cmake] -- Extracting source /usr/local/vcpkg-downloads/nothings-stb-f75e8d1cad7d90d72ef7a4661f1b994ef78b4e31.tar.gz
+[cmake] -- Using source at /usr/local/vcpkg/buildtrees/stb/src/4ef78b4e31-bf024d35de.clean
+[cmake] -- Installing: /usr/local/vcpkg/packages/stb_arm64-linux/share/stb/FindStb.cmake
+[cmake] -- Installing: /usr/local/vcpkg/packages/stb_arm64-linux/share/stb/vcpkg-cmake-wrapper.cmake
+[cmake] -- Installing: /usr/local/vcpkg/packages/stb_arm64-linux/share/stb/usage
+[cmake] -- Installing: /usr/local/vcpkg/packages/stb_arm64-linux/share/stb/copyright
+[cmake] -- Performing post-build validation
+[cmake] Starting submission of stb:arm64-linux@2024-07-29#1 to 1 binary cache(s) in the background
+[cmake] Elapsed time to handle stb:arm64-linux: 916 ms
+[cmake] stb:arm64-linux package ABI: 65e386b9b9ea5bfaffdcfa22008aa35462ca23254f313fecb5797ab2b413bf79
+[cmake] Installing 2/8 rapidjson:arm64-linux@2025-02-26...
+[cmake] Building rapidjson:arm64-linux@2025-02-26...
+[cmake] /usr/local/vcpkg/triplets/community/arm64-linux.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+[cmake] Downloading https://github.com/Tencent/rapidjson/archive/24b5e7a8b27f42fa16b96fc70aade9106cf7102f.tar.gz -> Tencent-rapidjson-24b5e7a8b27f42fa16b96fc70aade9106cf7102f-2.tar.gz
+[main] Changes were detected in CMakeLists.txt but we could not reconfigure the project because another operation is already in progress.
+[cmake] Successfully downloaded Tencent-rapidjson-24b5e7a8b27f42fa16b96fc70aade9106cf7102f-2.tar.gz
+[cmake] -- Extracting source /usr/local/vcpkg-downloads/Tencent-rapidjson-24b5e7a8b27f42fa16b96fc70aade9106cf7102f-2.tar.gz
+[cmake] -- Using source at /usr/local/vcpkg/buildtrees/rapidjson/src/106cf7102f-b0877c68bd.clean
+[cmake] -- Configuring arm64-linux
+[cmake] -- Building arm64-linux-dbg
+[cmake] -- Building arm64-linux-rel
+[cmake] -- Fixing pkgconfig file: /usr/local/vcpkg/packages/rapidjson_arm64-linux/lib/pkgconfig/RapidJSON.pc
+[cmake] -- Fixing pkgconfig file: /usr/local/vcpkg/packages/rapidjson_arm64-linux/debug/lib/pkgconfig/RapidJSON.pc
+[cmake] -- Installing: /usr/local/vcpkg/packages/rapidjson_arm64-linux/share/rapidjson/copyright
+[cmake] -- Performing post-build validation
+[cmake] Starting submission of rapidjson:arm64-linux@2025-02-26 to 1 binary cache(s) in the background
+[cmake] Elapsed time to handle rapidjson:arm64-linux: 1.1 s
+[cmake] rapidjson:arm64-linux package ABI: 817dac801ce5871827a4d5387cf5ee133cdbfd1250ee673a29e7fea428d56378
+[cmake] Completed submission of stb:arm64-linux@2024-07-29#1 to 1 binary cache(s) in 36.9 ms
+[cmake] Installing 3/8 polyclipping:arm64-linux@6.4.2#13...
+[cmake] Building polyclipping:arm64-linux@6.4.2#13...
+[cmake] /usr/local/vcpkg/triplets/community/arm64-linux.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+[cmake] Downloading clipper_ver6.4.2.zip, trying https://sourceforge.net/projects/polyclipping/files///clipper_ver6.4.2.zip/download
+[cmake] Successfully downloaded clipper_ver6.4.2.zip
+[cmake] -- Extracting source /usr/local/vcpkg-downloads/clipper_ver6.4.2.zip
+[cmake] -- Applying patch fix_targets.patch
+[cmake] -- Using source at /usr/local/vcpkg/buildtrees/polyclipping/src/-06b887c850.clean
+[cmake] -- Configuring arm64-linux
+[cmake] -- Building arm64-linux-dbg
+[cmake] -- Building arm64-linux-rel
+[cmake] -- Fixing pkgconfig file: /usr/local/vcpkg/packages/polyclipping_arm64-linux/lib/pkgconfig/polyclipping.pc
+[cmake] -- Fixing pkgconfig file: /usr/local/vcpkg/packages/polyclipping_arm64-linux/debug/lib/pkgconfig/polyclipping.pc
+[cmake] -- Installing: /usr/local/vcpkg/packages/polyclipping_arm64-linux/share/clipper/FindCLIPPER.cmake
+[cmake] -- Installing: /usr/local/vcpkg/packages/polyclipping_arm64-linux/share/clipper/vcpkg-cmake-wrapper.cmake
+[cmake] -- Installing: /usr/local/vcpkg/packages/polyclipping_arm64-linux/share/polyclipping/copyright
+[cmake] -- Fixing pkgconfig file: /usr/local/vcpkg/packages/polyclipping_arm64-linux/lib/pkgconfig/polyclipping.pc
+[cmake] -- Fixing pkgconfig file: /usr/local/vcpkg/packages/polyclipping_arm64-linux/debug/lib/pkgconfig/polyclipping.pc
+[cmake] -- Performing post-build validation
+[cmake] Starting submission of polyclipping:arm64-linux@6.4.2#13 to 1 binary cache(s) in the background
+[cmake] Elapsed time to handle polyclipping:arm64-linux: 17 s
+[cmake] polyclipping:arm64-linux package ABI: 8c60892a1905ad8f3a6a8f2496df81f845348b0569eddb302b31daa37de9f495
+[cmake] Completed submission of rapidjson:arm64-linux@2025-02-26 to 1 binary cache(s) in 12.4 ms
+[cmake] Installing 4/8 minizip:arm64-linux@1.3.1#1...
+[cmake] Building minizip:arm64-linux@1.3.1#1...
+[cmake] /usr/local/vcpkg/triplets/community/arm64-linux.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+[cmake] -- Using cached madler-zlib-v1.3.1.tar.gz
+[cmake] -- Extracting source /usr/local/vcpkg-downloads/madler-zlib-v1.3.1.tar.gz
+[cmake] -- Applying patch 0001-remove-ifndef-NOUNCRYPT.patch
+[cmake] -- Applying patch 0002-add-declaration-for-mkdir.patch
+[cmake] -- Applying patch pkgconfig.patch
+[cmake] -- Applying patch android-fileapi.patch
+[cmake] -- Using source at /usr/local/vcpkg/buildtrees/minizip/src/v1.3.1-2a3c4cf735.clean
+[cmake] -- Configuring arm64-linux
+[cmake] -- Building arm64-linux-dbg
+[cmake] -- Building arm64-linux-rel
+[cmake] -- Fixing pkgconfig file: /usr/local/vcpkg/packages/minizip_arm64-linux/lib/pkgconfig/minizip.pc
+[cmake] -- Fixing pkgconfig file: /usr/local/vcpkg/packages/minizip_arm64-linux/debug/lib/pkgconfig/minizip.pc
+[cmake] -- Installing: /usr/local/vcpkg/packages/minizip_arm64-linux/share/minizip/copyright
+[cmake] -- Performing post-build validation
+[cmake] Starting submission of minizip:arm64-linux@1.3.1#1 to 1 binary cache(s) in the background
+[cmake] Elapsed time to handle minizip:arm64-linux: 548 ms
+[cmake] minizip:arm64-linux package ABI: cf8ef30c975f2972b43efd5a49b085ee3e99c8aebd088dc20971a2a4c0727555
+[cmake] Completed submission of polyclipping:arm64-linux@6.4.2#13 to 1 binary cache(s) in 37.5 ms
+[cmake] Installing 5/8 kubazip:arm64-linux@0.3.5...
+[cmake] Building kubazip:arm64-linux@0.3.5...
+[cmake] /usr/local/vcpkg/triplets/community/arm64-linux.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+[cmake] Downloading https://github.com/kuba--/zip/archive/v0.3.5.tar.gz -> kuba---zip-v0.3.5.tar.gz
+[cmake] Successfully downloaded kuba---zip-v0.3.5.tar.gz
+[cmake] -- Extracting source /usr/local/vcpkg-downloads/kuba---zip-v0.3.5.tar.gz
+[cmake] -- Applying patch fix-name-conflict.diff
+[cmake] -- Using source at /usr/local/vcpkg/buildtrees/kubazip/src/v0.3.5-00dd9aa233.clean
+[cmake] -- Configuring arm64-linux
+[cmake] -- Building arm64-linux-dbg
+[cmake] -- Building arm64-linux-rel
+[cmake] -- Installing: /usr/local/vcpkg/packages/kubazip_arm64-linux/share/kubazip/kubazipConfig.cmake
+[cmake] -- Installing: /usr/local/vcpkg/packages/kubazip_arm64-linux/share/kubazip/usage
+[cmake] -- Installing: /usr/local/vcpkg/packages/kubazip_arm64-linux/share/kubazip/copyright
+[cmake] -- Performing post-build validation
+[cmake] Starting submission of kubazip:arm64-linux@0.3.5 to 1 binary cache(s) in the background
+[cmake] Elapsed time to handle kubazip:arm64-linux: 2.8 s
+[cmake] kubazip:arm64-linux package ABI: 9faa0692ac6942d3e339af15f6f9f6e83cf37aa66509a4542500a055bbc6dfd5
+[cmake] Completed submission of minizip:arm64-linux@1.3.1#1 to 1 binary cache(s) in 8.98 ms
+[cmake] Installing 6/8 jhasse-poly2tri:arm64-linux@2023-12-27#2...
+[cmake] Building jhasse-poly2tri:arm64-linux@2023-12-27#2...
+[cmake] /usr/local/vcpkg/triplets/community/arm64-linux.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+[cmake] Downloading https://github.com/jhasse/poly2tri/archive/0171f030bd3d5c6747c29d93403546eed668a1b6.tar.gz -> jhasse-poly2tri-0171f030bd3d5c6747c29d93403546eed668a1b6.tar.gz
+[cmake] Successfully downloaded jhasse-poly2tri-0171f030bd3d5c6747c29d93403546eed668a1b6.tar.gz
+[cmake] -- Extracting source /usr/local/vcpkg-downloads/jhasse-poly2tri-0171f030bd3d5c6747c29d93403546eed668a1b6.tar.gz
+[cmake] -- Applying patch cmake.patch
+[cmake] -- Using source at /usr/local/vcpkg/buildtrees/jhasse-poly2tri/src/eed668a1b6-2f597c27ae.clean
+[cmake] -- Configuring arm64-linux
+[cmake] -- Building arm64-linux-dbg
+[cmake] -- Building arm64-linux-rel
+[cmake] -- Installing: /usr/local/vcpkg/packages/jhasse-poly2tri_arm64-linux/share/jhasse-poly2tri/usage
+[cmake] -- Installing: /usr/local/vcpkg/packages/jhasse-poly2tri_arm64-linux/share/jhasse-poly2tri/copyright
+[cmake] -- Performing post-build validation
+[cmake] Starting submission of jhasse-poly2tri:arm64-linux@2023-12-27#2 to 1 binary cache(s) in the background
+[cmake] Elapsed time to handle jhasse-poly2tri:arm64-linux: 1.5 s
+[cmake] jhasse-poly2tri:arm64-linux package ABI: e1a9aed534be0ea9130aa36303de171cd107fc83b13ab5789b73deaf3db629a2
+[cmake] Completed submission of kubazip:arm64-linux@0.3.5 to 1 binary cache(s) in 20 ms
+[cmake] Installing 7/8 draco:arm64-linux@1.5.7...
+[cmake] Building draco:arm64-linux@1.5.7...
+[cmake] /usr/local/vcpkg/triplets/community/arm64-linux.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+[cmake] Downloading https://github.com/google/draco/archive/1.5.7.tar.gz -> google-draco-1.5.7.tar.gz
+[cmake] Successfully downloaded google-draco-1.5.7.tar.gz
+[cmake] -- Extracting source /usr/local/vcpkg-downloads/google-draco-1.5.7.tar.gz
+[cmake] -- Applying patch fix-compile-error-uwp.patch
+[cmake] -- Applying patch fix-uwperror.patch
+[cmake] -- Applying patch fix-pkgconfig.patch
+[cmake] -- Applying patch disable-symlinks.patch
+[cmake] -- Applying patch install-linkage.diff
+[cmake] -- Using source at /usr/local/vcpkg/buildtrees/draco/src/1.5.7-c71437a6c1.clean
+[cmake] -- Configuring arm64-linux
+[cmake] -- Building arm64-linux-dbg
+[cmake] -- Building arm64-linux-rel
+[cmake] -- Fixing pkgconfig file: /usr/local/vcpkg/packages/draco_arm64-linux/lib/pkgconfig/draco.pc
+[cmake] -- Fixing pkgconfig file: /usr/local/vcpkg/packages/draco_arm64-linux/debug/lib/pkgconfig/draco.pc
+[cmake] -- Installing: /usr/local/vcpkg/packages/draco_arm64-linux/share/draco/copyright
+[cmake] -- Adjusted RPATH of '/usr/local/vcpkg/packages/draco_arm64-linux/tools/draco/draco_decoder' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+[cmake] -- Adjusted RPATH of '/usr/local/vcpkg/packages/draco_arm64-linux/tools/draco/draco_encoder' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+[cmake] -- Performing post-build validation
+[cmake] Starting submission of draco:arm64-linux@1.5.7 to 1 binary cache(s) in the background
+[cmake] Elapsed time to handle draco:arm64-linux: 17 s
+[cmake] draco:arm64-linux package ABI: 36e063bfcaa0487d344c9cddea8df0d69bcb6d41ef071202d874e44b0a25e5f0
+[cmake] Completed submission of jhasse-poly2tri:arm64-linux@2023-12-27#2 to 1 binary cache(s) in 37.4 ms
+[cmake] Installing 8/8 assimp:arm64-linux@6.0.2#1...
+[cmake] Building assimp:arm64-linux@6.0.2#1...
+[cmake] /usr/local/vcpkg/triplets/community/arm64-linux.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+[cmake] Downloading https://github.com/assimp/assimp/archive/v6.0.2.tar.gz -> assimp-assimp-v6.0.2.tar.gz
+[cmake] Successfully downloaded assimp-assimp-v6.0.2.tar.gz
+[cmake] -- Extracting source /usr/local/vcpkg-downloads/assimp-assimp-v6.0.2.tar.gz
+[cmake] -- Applying patch build_fixes.patch
+[cmake] -- Using source at /usr/local/vcpkg/buildtrees/assimp/src/v6.0.2-7742348140.clean
+[cmake] -- Configuring arm64-linux
+[cmake] -- Building arm64-linux-dbg
+[cmake] -- Building arm64-linux-rel
+[cmake] -- Fixing pkgconfig file: /usr/local/vcpkg/packages/assimp_arm64-linux/lib/pkgconfig/assimp.pc
+[cmake] -- Fixing pkgconfig file: /usr/local/vcpkg/packages/assimp_arm64-linux/debug/lib/pkgconfig/assimp.pc
+[cmake] -- Installing: /usr/local/vcpkg/packages/assimp_arm64-linux/share/assimp/copyright
+[cmake] -- Performing post-build validation
+[cmake] Starting submission of assimp:arm64-linux@6.0.2#1 to 1 binary cache(s) in the background
+[cmake] Elapsed time to handle assimp:arm64-linux: 57 s
+[cmake] assimp:arm64-linux package ABI: 15be4291874ccda28e4d35f60af57de330f331afdceb989db2afb5fd834bb54d
+[cmake] Installed contents are licensed to you by owners. Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+[cmake] Packages installed in this vcpkg installation declare the following licenses:
+[cmake] (MIT OR CC-PDDC)
+[cmake] Apache-2.0
+[cmake] BSD-3-Clause
+[cmake] BSL-1.0
+[cmake] MIT
+[cmake] Zlib
+[cmake] utfcpp provides CMake targets:
+[cmake] 
+[cmake]   # this is heuristically generated, and may not be correct
+[cmake]   find_package(utf8cpp CONFIG REQUIRED)
+[cmake]   target_link_libraries(main PRIVATE utf8::cpp utf8cpp::utf8cpp)
+[cmake] 
+[cmake] pugixml provides CMake targets:
+[cmake] 
+[cmake]   # this is heuristically generated, and may not be correct
+[cmake]   find_package(pugixml CONFIG REQUIRED)
+[cmake]   target_link_libraries(main PRIVATE pugixml::static pugixml::pugixml)
+[cmake] 
+[cmake] pugixml provides pkg-config modules:
+[cmake] 
+[cmake]   # Light-weight, simple and fast XML parser for C++ with XPath support.
+[cmake]   pugixml
+[cmake] 
+[cmake] assimp provides CMake targets:
+[cmake] 
+[cmake]   # this is heuristically generated, and may not be correct
+[cmake]   find_package(assimp CONFIG REQUIRED)
+[cmake]   target_link_libraries(main PRIVATE assimp::assimp)
+[cmake] 
+[cmake] assimp provides pkg-config modules:
+[cmake] 
+[cmake]   # Import various well-known 3D model formats in an uniform manner.
+[cmake]   assimp
+[cmake] 
 [cmake] freeimage provides CMake targets:
 [cmake] 
 [cmake]   # this is heuristically generated, and may not be correct
@@ -284,17 +484,6 @@
 [cmake]   # OpenAL is a cross-platform 3D audio API
 [cmake]   openal
 [cmake] 
-[cmake] pugixml provides CMake targets:
-[cmake] 
-[cmake]   # this is heuristically generated, and may not be correct
-[cmake]   find_package(pugixml CONFIG REQUIRED)
-[cmake]   target_link_libraries(main PRIVATE pugixml::static pugixml::pugixml)
-[cmake] 
-[cmake] pugixml provides pkg-config modules:
-[cmake] 
-[cmake]   # Light-weight, simple and fast XML parser for C++ with XPath support.
-[cmake]   pugixml
-[cmake] 
 [cmake] rtaudio provides CMake targets:
 [cmake] 
 [cmake]   # this is heuristically generated, and may not be correct
@@ -311,13 +500,10 @@
 [cmake]     find_package(uriparser CONFIG REQUIRED char wchar_t)
 [cmake]     target_link_libraries(main PUBLIC uriparser::uriparser)
 [cmake] 
-[cmake] utfcpp provides CMake targets:
-[cmake] 
-[cmake]   # this is heuristically generated, and may not be correct
-[cmake]   find_package(utf8cpp CONFIG REQUIRED)
-[cmake]   target_link_libraries(main PRIVATE utf8::cpp utf8cpp::utf8cpp)
-[cmake] 
-[cmake] All requested installations completed successfully in: 496 us
+[cmake] Completed submission of draco:arm64-linux@1.5.7 to 1 binary cache(s) in 1.6 s
+[cmake] Waiting for 1 remaining binary cache submissions...
+[cmake] Completed submission of assimp:arm64-linux@6.0.2#1 to 1 binary cache(s) in 6 s (1/1)
+[cmake] All requested installations completed successfully in: 1.6 min
 [cmake] -- Running vcpkg install - done
 [cmake] CMake Deprecation Warning at build/vcpkg_installed/arm64-linux/share/kissfft/kissfft-config.cmake:51 (cmake_minimum_required):
 [cmake]   Compatibility with CMake < 3.10 will be removed from a future version of
@@ -426,432 +612,6 @@
 [cmake]   libs/openFrameworks/CMakeLists.txt:70 (find_package)
 [cmake] 
 [cmake] 
-[cmake] -- Configuring done (0.9s)
-[cmake] -- Generating done (0.1s)
-[cmake] -- Build files have been written to: /workspaces/openframeworks-openFrameworks/build
-[main] Configuring project: openframeworks-openFrameworks 
-[proc] Executing command: /usr/local/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_TOOLCHAIN_FILE:STRING=/usr/local/vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/aarch64-linux-gnu-gcc-14 -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/aarch64-linux-gnu-g++-14 --no-warn-unused-cli -S /workspaces/openframeworks-openFrameworks -B /workspaces/openframeworks-openFrameworks/build -G Ninja
-[cmake] Not searching for unused variables given on the command line.
-[cmake] -- Running vcpkg install
-[cmake] Detecting compiler hash for triplet arm64-linux...
-[cmake] Compiler found: /usr/bin/c++
-[cmake] The following packages are already installed:
-[cmake]   * alsa:arm64-linux@1.2.14
-[cmake]   * brotli:arm64-linux@1.1.0#1
-[cmake]   * bzip2[core,tool]:arm64-linux@1.0.8#6
-[cmake]   * dirent:arm64-linux@1.26
-[cmake]   * egl-registry:arm64-linux@2024-01-25
-[cmake]   * fmt:arm64-linux@11.2.0
-[cmake]     freeimage:arm64-linux@3.18.0#27
-[cmake]     freetype[brotli,bzip2,core,png,zlib]:arm64-linux@2.13.3
-[cmake]   * gettext[core,tools]:arm64-linux@0.22.5#2
-[cmake]   * gettext-libintl:arm64-linux@0.22.5#3
-[cmake]     glew:arm64-linux@2.2.0#6
-[cmake]     glfw3:arm64-linux@3.4#1
-[cmake]   * glib:arm64-linux@2.84.2#2
-[cmake]     glm:arm64-linux@1.0.1#3
-[cmake]     gstreamer[core,plugins-base]:arm64-linux@1.26.4
-[cmake]   * imath:arm64-linux@3.2.0
-[cmake]   * jasper:arm64-linux@4.2.8
-[cmake]   * jxrlib:arm64-linux@2019.10.9#7
-[cmake]     kissfft:arm64-linux@131.1.0
-[cmake]   * lcms:arm64-linux@2.17
-[cmake]   * libdeflate[compression,core,decompression,gzip,zlib]:arm64-linux@1.24
-[cmake]   * libffi:arm64-linux@3.5.2
-[cmake]   * libiconv:arm64-linux@1.18#1
-[cmake]   * libjpeg-turbo:arm64-linux@3.1.1
-[cmake]   * liblzma:arm64-linux@5.8.1
-[cmake]   * libpng:arm64-linux@1.6.50
-[cmake]   * libraw:arm64-linux@0.21.4
-[cmake]     libtess2:arm64-linux@2021-12-27
-[cmake]   * libwebp[core,libwebpmux,nearlossless,simd]:arm64-linux@1.6.0#1
-[cmake]     nlohmann-json:arm64-linux@3.12.0#1
-[cmake]     openal-soft:arm64-linux@1.24.3#1
-[cmake]   * openexr:arm64-linux@3.3.5
-[cmake]     opengl:arm64-linux@2022-12-04#3
-[cmake]   * opengl-registry:arm64-linux@2024-02-10#1
-[cmake]   * openjpeg:arm64-linux@2.5.3
-[cmake]   * pcre2[core,jit,platform-default-features]:arm64-linux@10.46
-[cmake]     pugixml:arm64-linux@1.15
-[cmake]     rtaudio:arm64-linux@6.0.1#1
-[cmake]   * tiff[core,jpeg,lzma,zip]:arm64-linux@4.7.0
-[cmake]     uriparser:arm64-linux@0.9.8
-[cmake]     utfcpp:arm64-linux@4.0.6
-[cmake]   * vcpkg-cmake:arm64-linux@2024-04-23
-[cmake]   * vcpkg-cmake-config:arm64-linux@2024-05-23
-[cmake]   * vcpkg-cmake-get-vars:arm64-linux@2025-05-29
-[cmake]   * vcpkg-make:arm64-linux@2025-08-21
-[cmake]   * vcpkg-tool-meson:arm64-linux@1.9.0
-[cmake]   * zlib:arm64-linux@1.3.1
-[cmake] freeimage provides CMake targets:
-[cmake] 
-[cmake]   # this is heuristically generated, and may not be correct
-[cmake]   find_package(freeimage CONFIG REQUIRED)
-[cmake]   target_link_libraries(main PRIVATE freeimage::FreeImage freeimage::FreeImagePlus)
-[cmake] 
-[cmake] freetype is compatible with built-in CMake targets:
-[cmake] 
-[cmake]     find_package(Freetype REQUIRED)
-[cmake]     target_link_libraries(main PRIVATE Freetype::Freetype) # since CMake 3.10
-[cmake] 
-[cmake] The package opengl is compatible with built-in CMake targets via CMake v3.7 and prior syntax
-[cmake] 
-[cmake]     find_package(OpenGL REQUIRED)
-[cmake]     target_link_libraries(main PRIVATE ${OPENGL_LIBRARIES})
-[cmake]     target_include_directories(main PRIVATE ${OPENGL_INCLUDE_DIR})
-[cmake] 
-[cmake] and the CMake v3.8 and beyond imported target syntax
-[cmake] 
-[cmake]     find_package(OpenGL REQUIRED)
-[cmake]     target_link_libraries(main PRIVATE OpenGL::GL)
-[cmake] 
-[cmake] introduction of various components
-[cmake] 
-[cmake]     find_package(OpenGL REQUIRED COMPONENTS GL      # v3.8
-[cmake]                                             GLU     # v3.8
-[cmake]                                             GLX     # v3.10
-[cmake]                                             EGL     # v3.10
-[cmake]                                             OpenGL) # v3.10
-[cmake] 
-[cmake] The OpenGL SDK is highly platform dependent and is usually an OS component. It's not realistic to build from source for every platform.
-[cmake] 
-[cmake]     WINDOWS: is part of the Windows SDK which this package installs.
-[cmake]     LINUX: the SDK may be installed from your distro's repo or from 3rd parties manually. There are too many to count.
-[cmake]     APPLE: consult your distribution vendor on the state of OpenGL support: https://support.apple.com/en-us/HT202823
-[cmake] 
-[cmake] The package glew is compatible with built-in CMake targets:
-[cmake] 
-[cmake]     find_package(GLEW REQUIRED)
-[cmake]     target_link_libraries(main PRIVATE GLEW::GLEW)
-[cmake] 
-[cmake] glfw3 provides CMake targets:
-[cmake] 
-[cmake]   # this is heuristically generated, and may not be correct
-[cmake]   find_package(glfw3 CONFIG REQUIRED)
-[cmake]   target_link_libraries(main PRIVATE glfw)
-[cmake] 
-[cmake] glfw3 provides pkg-config modules:
-[cmake] 
-[cmake]   # A multi-platform library for OpenGL, window and input
-[cmake]   glfw3
-[cmake] 
-[cmake] The package glm provides CMake targets:
-[cmake] 
-[cmake]     find_package(glm CONFIG REQUIRED)
-[cmake]     target_link_libraries(main PRIVATE glm::glm)
-[cmake] 
-[cmake]     # Or use the header-only version
-[cmake]     find_package(glm CONFIG REQUIRED)
-[cmake]     target_link_libraries(main PRIVATE glm::glm-header-only)
-[cmake] 
-[cmake] gstreamer provides pkg-config modules:
-[cmake] 
-[cmake]   # gstreamer-full: gstadder
-[cmake]   gstadder
-[cmake] 
-[cmake]   # gstreamer-full: gstapp
-[cmake]   gstapp
-[cmake] 
-[cmake]   # gstreamer-full: gstaudioconvert
-[cmake]   gstaudioconvert
-[cmake] 
-[cmake]   # gstreamer-full: gstaudiomixer
-[cmake]   gstaudiomixer
-[cmake] 
-[cmake]   # gstreamer-full: gstaudiorate
-[cmake]   gstaudiorate
-[cmake] 
-[cmake]   # gstreamer-full: gstaudioresample
-[cmake]   gstaudioresample
-[cmake] 
-[cmake]   # gstreamer-full: gstaudiotestsrc
-[cmake]   gstaudiotestsrc
-[cmake] 
-[cmake]   # gstreamer-full: gstbasedebug
-[cmake]   gstbasedebug
-[cmake] 
-[cmake]   # gstreamer-full: gstcompositor
-[cmake]   gstcompositor
-[cmake] 
-[cmake]   # gstreamer-full: gstcoreelements
-[cmake]   gstcoreelements
-[cmake] 
-[cmake]   # gstreamer-full: gstdsd
-[cmake]   gstdsd
-[cmake] 
-[cmake]   # gstreamer-full: gstencoding
-[cmake]   gstencoding
-[cmake] 
-[cmake]   # gstreamer-full: gstgio
-[cmake]   gstgio
-[cmake] 
-[cmake]   # gstreamer-full: gstoverlaycomposition
-[cmake]   gstoverlaycomposition
-[cmake] 
-[cmake]   # gstreamer-full: gstpbtypes
-[cmake]   gstpbtypes
-[cmake] 
-[cmake]   # gstreamer-full: gstplayback
-[cmake]   gstplayback
-[cmake] 
-[cmake]   # gstreamer-full: gstrawparse
-[cmake]   gstrawparse
-[cmake] 
-[cmake]   # Streaming media framework
-[cmake]   gstreamer-1.0
-[cmake] 
-[cmake]   # Allocators implementation
-[cmake]   gstreamer-allocators-1.0
-[cmake] 
-[cmake]   # Helper functions and base classes for application integration
-[cmake]   gstreamer-app-1.0
-[cmake] 
-[cmake]   # Audio helper functions and base classes
-[cmake]   gstreamer-audio-1.0
-[cmake] 
-[cmake]   # Base classes for GStreamer elements
-[cmake]   gstreamer-base-1.0
-[cmake] 
-[cmake]   # Dynamic parameter control for GStreamer elements
-[cmake]   gstreamer-controller-1.0
-[cmake] 
-[cmake]   # FFT implementation
-[cmake]   gstreamer-fft-1.0
-[cmake] 
-[cmake]   # gstreamer-full: gstreamer-full-1.0
-[cmake]   gstreamer-full-1.0
-[cmake] 
-[cmake]   # Network-enabled GStreamer plug-ins and clocking
-[cmake]   gstreamer-net-1.0
-[cmake] 
-[cmake]   # General utility functions
-[cmake]   gstreamer-pbutils-1.0
-[cmake] 
-[cmake]   # Streaming media framework, base plugins libraries
-[cmake]   gstreamer-plugins-base-1.0
-[cmake] 
-[cmake]   # RIFF helper functions
-[cmake]   gstreamer-riff-1.0
-[cmake] 
-[cmake]   # RTP base classes and helper functions
-[cmake]   gstreamer-rtp-1.0
-[cmake] 
-[cmake]   # RTSP base classes and helper functions
-[cmake]   gstreamer-rtsp-1.0
-[cmake] 
-[cmake]   # SDP helper functions
-[cmake]   gstreamer-sdp-1.0
-[cmake] 
-[cmake]   # Tag base classes and helper functions
-[cmake]   gstreamer-tag-1.0
-[cmake] 
-[cmake]   # Video base classes and helper functions
-[cmake]   gstreamer-video-1.0
-[cmake] 
-[cmake]   # gstreamer-full: gstsubparse
-[cmake]   gstsubparse
-[cmake] 
-[cmake]   # gstreamer-full: gsttcp
-[cmake]   gsttcp
-[cmake] 
-[cmake]   # gstreamer-full: gsttypefindfunctions
-[cmake]   gsttypefindfunctions
-[cmake] 
-[cmake]   # gstreamer-full: gstvideoconvertscale
-[cmake]   gstvideoconvertscale
-[cmake] 
-[cmake]   # gstreamer-full: gstvideorate
-[cmake]   gstvideorate
-[cmake] 
-[cmake]   # gstreamer-full: gstvideotestsrc
-[cmake]   gstvideotestsrc
-[cmake] 
-[cmake]   # gstreamer-full: gstvolume
-[cmake]   gstvolume
-[cmake] 
-[cmake] kissfft provides CMake targets:
-[cmake] 
-[cmake]     # Using distinct targets
-[cmake]     find_package(kissfft CONFIG REQUIRED)
-[cmake]     target_link_libraries(main PRIVATE kissfft::kissfft-float)
-[cmake]     # Alternative targets: kissfft::kissfft-double, kissfft::int16_t, kissfft::int32_t
-[cmake] 
-[cmake]     # Using a distinct package component
-[cmake]     find_package(kissfft CONFIG REQUIRED COMPONENTS float)
-[cmake]     target_link_libraries(main PRIVATE kissfft::kissfft)
-[cmake]     # Alternative components: double, int16_t, int32_t
-[cmake] 
-[cmake] The package libtess2 provides CMake targets:
-[cmake] 
-[cmake] find_package(unofficial-libtess2 CONFIG REQUIRED)
-[cmake] target_link_libraries(main PUBLIC unofficial::libtess2::libtess2)
-[cmake] 
-[cmake] The package nlohmann-json provides CMake targets:
-[cmake] 
-[cmake]     find_package(nlohmann_json CONFIG REQUIRED)
-[cmake]     target_link_libraries(main PRIVATE nlohmann_json::nlohmann_json)
-[cmake] 
-[cmake] The package nlohmann-json can be configured to not provide implicit conversions via a custom triplet file:
-[cmake] 
-[cmake]     set(nlohmann-json_IMPLICIT_CONVERSIONS OFF)
-[cmake] 
-[cmake] For more information, see the docs here:
-[cmake]     
-[cmake]     https://json.nlohmann.me/api/macros/json_use_implicit_conversions/
-[cmake] 
-[cmake] openal-soft provides CMake targets:
-[cmake] 
-[cmake]   # this is heuristically generated, and may not be correct
-[cmake]   find_package(OpenAL CONFIG REQUIRED)
-[cmake]   target_link_libraries(main PRIVATE OpenAL::OpenAL)
-[cmake] 
-[cmake] openal-soft provides pkg-config modules:
-[cmake] 
-[cmake]   # OpenAL is a cross-platform 3D audio API
-[cmake]   openal
-[cmake] 
-[cmake] pugixml provides CMake targets:
-[cmake] 
-[cmake]   # this is heuristically generated, and may not be correct
-[cmake]   find_package(pugixml CONFIG REQUIRED)
-[cmake]   target_link_libraries(main PRIVATE pugixml::static pugixml::pugixml)
-[cmake] 
-[cmake] pugixml provides pkg-config modules:
-[cmake] 
-[cmake]   # Light-weight, simple and fast XML parser for C++ with XPath support.
-[cmake]   pugixml
-[cmake] 
-[cmake] rtaudio provides CMake targets:
-[cmake] 
-[cmake]   # this is heuristically generated, and may not be correct
-[cmake]   find_package(RtAudio CONFIG REQUIRED)
-[cmake]   target_link_libraries(main PRIVATE RtAudio::rtaudio)
-[cmake] 
-[cmake] rtaudio provides pkg-config modules:
-[cmake] 
-[cmake]   # RtAudio - a set of C++ classes that provide a common API for realtime audio input/output
-[cmake]   rtaudio
-[cmake] 
-[cmake] The package uriparser provides CMake targets:
-[cmake] 
-[cmake]     find_package(uriparser CONFIG REQUIRED char wchar_t)
-[cmake]     target_link_libraries(main PUBLIC uriparser::uriparser)
-[cmake] 
-[cmake] utfcpp provides CMake targets:
-[cmake] 
-[cmake]   # this is heuristically generated, and may not be correct
-[cmake]   find_package(utf8cpp CONFIG REQUIRED)
-[cmake]   target_link_libraries(main PRIVATE utf8::cpp utf8cpp::utf8cpp)
-[cmake] 
-[cmake] All requested installations completed successfully in: 624 us
-[cmake] -- Running vcpkg install - done
-[cmake] CMake Deprecation Warning at build/vcpkg_installed/arm64-linux/share/kissfft/kissfft-config.cmake:51 (cmake_minimum_required):
-[cmake]   Compatibility with CMake < 3.10 will be removed from a future version of
-[cmake]   CMake.
-[cmake] 
-[cmake]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
-[cmake]   to tell CMake that the project requires at least <min> but has been updated
-[cmake]   to work with policies introduced by <max> or earlier.
-[cmake] Call Stack (most recent call first):
-[cmake]   /usr/local/vcpkg/scripts/buildsystems/vcpkg.cmake:896 (_find_package)
-[cmake]   libs/openFrameworks/CMakeLists.txt:37 (find_package)
-[cmake] 
-[cmake] 
-[cmake] CMake Warning at /usr/local/vcpkg/scripts/buildsystems/vcpkg.cmake:896 (_find_package):
-[cmake]   By not providing "Findcurl.cmake" in CMAKE_MODULE_PATH this project has
-[cmake]   asked CMake to find a package configuration file provided by "curl", but
-[cmake]   CMake did not find one.
-[cmake] 
-[cmake]   Could not find a package configuration file provided by "curl" with any of
-[cmake]   the following names:
-[cmake] 
-[cmake]     curlConfig.cmake
-[cmake]     curl-config.cmake
-[cmake] 
-[cmake]   Add the installation prefix of "curl" to CMAKE_PREFIX_PATH or set
-[cmake]   "curl_DIR" to a directory containing one of the above files.  If "curl"
-[cmake]   provides a separate development package or SDK, be sure it has been
-[cmake]   installed.
-[cmake] Call Stack (most recent call first):
-[cmake]   libs/openFrameworks/CMakeLists.txt:58 (find_package)
-[cmake] 
-[cmake] 
-[cmake] CMake Warning at /usr/local/vcpkg/scripts/buildsystems/vcpkg.cmake:896 (_find_package):
-[cmake]   By not providing "Findopenssl.cmake" in CMAKE_MODULE_PATH this project has
-[cmake]   asked CMake to find a package configuration file provided by "openssl", but
-[cmake]   CMake did not find one.
-[cmake] 
-[cmake]   Could not find a package configuration file provided by "openssl" with any
-[cmake]   of the following names:
-[cmake] 
-[cmake]     opensslConfig.cmake
-[cmake]     openssl-config.cmake
-[cmake] 
-[cmake]   Add the installation prefix of "openssl" to CMAKE_PREFIX_PATH or set
-[cmake]   "openssl_DIR" to a directory containing one of the above files.  If
-[cmake]   "openssl" provides a separate development package or SDK, be sure it has
-[cmake]   been installed.
-[cmake] Call Stack (most recent call first):
-[cmake]   libs/openFrameworks/CMakeLists.txt:61 (find_package)
-[cmake] 
-[cmake] 
-[cmake] CMake Warning at /usr/local/vcpkg/scripts/buildsystems/vcpkg.cmake:896 (_find_package):
-[cmake]   By not providing "Findudev.cmake" in CMAKE_MODULE_PATH this project has
-[cmake]   asked CMake to find a package configuration file provided by "udev", but
-[cmake]   CMake did not find one.
-[cmake] 
-[cmake]   Could not find a package configuration file provided by "udev" with any of
-[cmake]   the following names:
-[cmake] 
-[cmake]     udevConfig.cmake
-[cmake]     udev-config.cmake
-[cmake] 
-[cmake]   Add the installation prefix of "udev" to CMAKE_PREFIX_PATH or set
-[cmake]   "udev_DIR" to a directory containing one of the above files.  If "udev"
-[cmake]   provides a separate development package or SDK, be sure it has been
-[cmake]   installed.
-[cmake] Call Stack (most recent call first):
-[cmake]   libs/openFrameworks/CMakeLists.txt:64 (find_package)
-[cmake] 
-[cmake] 
-[cmake] CMake Warning at /usr/local/vcpkg/scripts/buildsystems/vcpkg.cmake:896 (_find_package):
-[cmake]   By not providing "Findsndfile.cmake" in CMAKE_MODULE_PATH this project has
-[cmake]   asked CMake to find a package configuration file provided by "sndfile", but
-[cmake]   CMake did not find one.
-[cmake] 
-[cmake]   Could not find a package configuration file provided by "sndfile" with any
-[cmake]   of the following names:
-[cmake] 
-[cmake]     sndfileConfig.cmake
-[cmake]     sndfile-config.cmake
-[cmake] 
-[cmake]   Add the installation prefix of "sndfile" to CMAKE_PREFIX_PATH or set
-[cmake]   "sndfile_DIR" to a directory containing one of the above files.  If
-[cmake]   "sndfile" provides a separate development package or SDK, be sure it has
-[cmake]   been installed.
-[cmake] Call Stack (most recent call first):
-[cmake]   libs/openFrameworks/CMakeLists.txt:67 (find_package)
-[cmake] 
-[cmake] 
-[cmake] CMake Warning at /usr/local/vcpkg/scripts/buildsystems/vcpkg.cmake:896 (_find_package):
-[cmake]   By not providing "Findfontconfig.cmake" in CMAKE_MODULE_PATH this project
-[cmake]   has asked CMake to find a package configuration file provided by
-[cmake]   "fontconfig", but CMake did not find one.
-[cmake] 
-[cmake]   Could not find a package configuration file provided by "fontconfig" with
-[cmake]   any of the following names:
-[cmake] 
-[cmake]     fontconfigConfig.cmake
-[cmake]     fontconfig-config.cmake
-[cmake] 
-[cmake]   Add the installation prefix of "fontconfig" to CMAKE_PREFIX_PATH or set
-[cmake]   "fontconfig_DIR" to a directory containing one of the above files.  If
-[cmake]   "fontconfig" provides a separate development package or SDK, be sure it has
-[cmake]   been installed.
-[cmake] Call Stack (most recent call first):
-[cmake]   libs/openFrameworks/CMakeLists.txt:70 (find_package)
-[cmake] 
-[cmake] 
-[cmake] -- Configuring done (1.2s)
+[cmake] -- Configuring done (104.8s)
 [cmake] -- Generating done (0.1s)
 [cmake] -- Build files have been written to: /workspaces/openframeworks-openFrameworks/build
