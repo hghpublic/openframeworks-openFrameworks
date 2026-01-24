@@ -1,14 +1,17 @@
 set(target ofxAssimpModelLoader)
-add_executable(${target})
+add_library(${target})
 
-# find_package(utf8cpp CONFIG REQUIRED)
-# target_link_libraries(${target} PRIVATE utf8::cpp utf8cpp::utf8cpp)
+find_package(utf8cpp CONFIG REQUIRED)
+target_link_libraries(${target} PRIVATE utf8::cpp utf8cpp::utf8cpp)
 
 # find_package(GLEW REQUIRED)
 # target_link_libraries(${target} PRIVATE GLEW::GLEW)
 
 find_package(glm CONFIG REQUIRED)
 target_link_libraries(${target} PRIVATE glm::glm)
+
+find_package(assimp CONFIG REQUIRED)
+target_link_libraries(${target} PRIVATE assimp::assimp)
 
 target_link_libraries(${target} PRIVATE openFrameworks)
 
